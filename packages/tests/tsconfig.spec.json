@@ -9,10 +9,8 @@
   },
   "include": [
     "./src/**/*.test.ts",
-    "!packages/storybook/**/*"
-  ],
-  "exclude": [
-    "packages/storybook/**/*"
+    "../components/**/*.ts",
+    "../../src/**/*.ts"
   ],
   "files": [
     "./src/test-setup.ts"

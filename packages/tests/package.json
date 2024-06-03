@@ -6,9 +6,10 @@
   "type": "module",
   "scripts": {
     "test": "vitest",
+    "test:run": "vitest --run",
     "test:ui": "vitest --ui --reporter html",
-    "coverage:ui": "vitest --ui --coverage --coverage.enable",
-    "coverage": "vitest run --coverage --coverage.enable"
+    "coverage:ui": "vitest --ui --coverage --coverage.enable false",
+    "coverage": "vitest run --coverage --coverage.enable false"
   },
   "keywords": [],
   "author": "Arjay Elbore <aelbore.sg@gmail.com>",

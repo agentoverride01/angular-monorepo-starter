@@ -4,8 +4,12 @@
   "description": "Angular Monorepo Stater (Vite, Vitest and Storybook)",
   "main": "index.js",
   "scripts": {
+    "serve": "vite -c ./packages/tools/vite.app.config.ts",
     "storybook": "npm run storybook -w packages/storybook",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test:run": "npx vitest run",
+    "test": "npx vitest",
+    "coverage:ui": "npm run coverage:ui -w packages/tests",
+    "coverage": "npm run coverage -w packages/tests"
   },
   "keywords": [],
   "author": "Arjay Elbore <aelbore.sg@gmail.com>",

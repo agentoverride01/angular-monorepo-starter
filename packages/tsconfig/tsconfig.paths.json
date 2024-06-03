@@ -4,7 +4,8 @@
       "@mono/theme": [ "../theme/styles.scss" ],
       "@mono/components/*": [ "../components/src/*" ],
       "@mono/tools": [ "../tools/src/tools.ts" ],
-      "@mono/storybook/utils": [ "../storybook/stories/utils.ts" ]
+      "@mono/storybook/utils": [ "../storybook/stories/utils.ts" ],
+      "@app/*": [ "../../src/app/*" ]
     }
   }
 }
