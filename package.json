@@ -1,0 +1,16 @@
+{
+  "name": "@mono/app",
+  "version": "0.0.0",
+  "description": "Angular Monorepo Stater (Vite, Vitest and Storybook)",
+  "main": "index.js",
+  "scripts": {
+    "storybook": "npm run storybook -w packages/storybook",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Arjay Elbore <aelbore.sg@gmail.com>",
+  "license": "MIT",
+  "workspaces": [
+    "packages/*"
+  ]
+}

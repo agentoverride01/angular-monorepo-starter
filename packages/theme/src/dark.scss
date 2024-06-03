@@ -1,0 +1,9 @@
+[theme=dark] {
+  --secondary-yellow: #f2a900;
+
+  --label-text-color: var(--primary-white);
+  
+  body {
+    background: var(--theme-background);
+  }
+}

@@ -1,0 +1,30 @@
+:host {
+  font-family: var(--font-family);
+
+  button {
+    border-radius: var(--button-border-radius);
+    color: var(--button-text-color);
+    background-color: var(--button-bg-color, #1991F0);
+    font-family: var(--button-font-family, var(--font-family));
+    border: var(--button-border, none);
+    border-color: var(--button-border-color, transparent);
+    font-weight: var(--button-font-weight, 400);
+    font-size: var(--button-font-size, 16px);
+    width: var(--button-width, 100%);
+    height: var(--button-height, 40px);
+    cursor: pointer;
+    display: inline-block;
+    text-align: var(--button-text-align, center);
+
+    &:hover {
+      --button-bg-color: var(--button-pressed-primary-bg-color);
+      --button-border-color: var(--button-pressed-primary-border-color);
+    }
+
+    ::ng-deep * {
+      display: grid;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+}

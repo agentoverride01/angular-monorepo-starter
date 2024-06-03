@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "paths": {
+      "@mono/theme": [ "../theme/styles.scss" ],
+      "@mono/components/*": [ "../components/src/*" ],
+      "@mono/tools": [ "../tools/src/tools.ts" ],
+      "@mono/storybook/utils": [ "../storybook/stories/utils.ts" ]
+    }
+  }
+}

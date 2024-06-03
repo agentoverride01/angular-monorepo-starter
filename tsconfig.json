@@ -1,0 +1,6 @@
+{
+  "extends": [
+    "@mono/tsconfig/tsconfig.json",
+    "@mono/tsconfig/tsconfig.paths.json"
+  ]
+}
