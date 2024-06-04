@@ -19,7 +19,7 @@ import { Component, Input, booleanAttribute } from '@angular/core'
         grid-template-rows: var(--content-grid-rows);
         grid-template-columns: var(--content-grid-columns);
         background-color: var(--content-bg-color);
-        padding: var(--content-padding);
+        padding: var(--content-padding, 0);
         
         ::ng-deep {
           > header, 
@@ -35,6 +35,7 @@ import { Component, Input, booleanAttribute } from '@angular/core'
             display: var(--content-section-display);
             row-gap: var(--content-section-row-gap);
             padding: var(--content-section-padding);
+            //grid-template-columns: var(--content )
           }
 
           > footer {

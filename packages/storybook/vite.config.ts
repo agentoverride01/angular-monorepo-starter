@@ -4,13 +4,11 @@ import { join } from 'node:path'
 import angular from '@analogjs/vite-plugin-angular'
 import defaultConfig from '../tools/vite.config'
 
-import { getParentDir, viteAlias } from '../tools/src/utils'
-
-console.log(viteAlias(getParentDir('packages/storybook')))
+import { getParentDir, vitestAlias } from '../tools/src/utils'
 
 export default mergeConfig(defaultConfig, {
   resolve: {
-    alias: viteAlias(getParentDir('packages/storybook')),
+    alias: vitestAlias(getParentDir('packages/storybook')),
   },
   plugins: [
     {

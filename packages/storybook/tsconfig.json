@@ -3,5 +3,8 @@
     "@mono/tsconfig/tsconfig.json",
     "@mono/tsconfig/tsconfig.paths.json"
   ],
-  "include": [ "../**/*.ts" ]
+  "include": [ 
+    "../**/*.ts",
+    "../../src/app/**/*.ts"
+  ]
 }

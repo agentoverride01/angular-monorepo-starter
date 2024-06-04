@@ -1,7 +1,7 @@
 import { Component } from '@angular/core'
 
 @Component({
-  selector: 'm-footer',
+  selector: 'ma-footer',
   standalone: true,
   template: `
     <footer>

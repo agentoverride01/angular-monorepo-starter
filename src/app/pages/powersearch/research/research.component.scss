@@ -1,0 +1,12 @@
+:host {
+  ma-card {
+    --card-border: 1px solid;
+    --card-border-color: green;
+    
+    ma-header {
+      --header-border-style: none;
+      --header-align-items: center;
+      --header-padding: 10px;
+    }
+  }
+}

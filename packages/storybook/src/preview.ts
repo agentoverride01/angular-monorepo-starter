@@ -1,4 +1,5 @@
 import '@mono/theme'
+import '../styles.scss'
 
 import type { Preview } from '@storybook/angular'
 

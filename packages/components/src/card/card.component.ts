@@ -15,7 +15,7 @@ import { Component } from '@angular/core'
       section {
         display: var(--card-display);
         grid-template-rows: var(--card-grid-rows);
-        padding: var(--card-padding);
+        padding: var(--card-padding, 0);
         min-height: var(--card-min-height);
         height: var(--card-height);  
         width: var(--card-width);
@@ -27,8 +27,8 @@ import { Component } from '@angular/core'
         overflow: var(--card-overflow);
 
         &:hover { 
-          border: var(--card-border-hover);
-          border-color: var(--card-border-hover-color);
+          border: var(--card-border-hover, var(--card-border));
+          border-color: var(--card-border-hover-color, var(--card-border-color));
         }
       }
     }

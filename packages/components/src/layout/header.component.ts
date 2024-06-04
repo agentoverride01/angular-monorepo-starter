@@ -1,7 +1,7 @@
 import { Component } from '@angular/core'
 
 @Component({
-  selector: 'm-header',
+  selector: 'ma-header',
   standalone: true,
   template: `
     <header>
@@ -23,6 +23,7 @@ import { Component } from '@angular/core'
         border-style: var(--header-border-style);
         border-color: var(--header-border-color);
         background-color: var(--header-bg-color);
+        padding: var(--header-padding);
       }
     }
   `
