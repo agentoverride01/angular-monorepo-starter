@@ -2,11 +2,32 @@
   ma-card {
     --card-border: 1px solid;
     --card-border-color: green;
+    --card-min-height: 40vh;
+    --card-height: 40vh;
     
     ma-header {
       --header-border-style: none;
       --header-align-items: center;
       --header-padding: 10px;
+    }
+
+    ma-content {
+      ul {
+        display: grid;
+        list-style: none;
+        padding: 20px;
+        row-gap: 15px;
+        margin: 0;
+
+        li {
+          display: grid;
+          grid-template-columns: 10% 50% 20% 20%;
+
+          &:not(:last-child) {
+            border-bottom: 1px solid;
+          }
+        }
+      }
     }
   }
 }
