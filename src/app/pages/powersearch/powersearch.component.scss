@@ -1,4 +1,10 @@
 :host {
+  --card-border: 1px solid;
+  --card-box-shadow: 0 1px 5px 1px #dce7f6;
+  --card-border-color: #cccccc;
+
+  --footer-border-style: none;
+
   ma-layout {
     --layour-row-gap: 10px;
 
@@ -45,6 +51,10 @@
             column-gap: 20px;
             height: 100%;
           }
+        }
+
+        &--right {
+          grid-template-rows: auto 1fr;
         }
       }
     }

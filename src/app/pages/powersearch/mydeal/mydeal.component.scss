@@ -1,9 +1,7 @@
 :host {
   ma-card {
-    --card-border: 1px solid;
-    --card-border-color: green;
-    --card-min-height: 40vh;
-    --card-height: 40vh;
+    --card-min-height: auto;
+    --card-height: auto;
     
     ma-header {
       --header-border-style: none;
@@ -16,7 +14,7 @@
         display: grid;
         list-style: none;
         padding: 20px;
-        row-gap: 15px;
+        row-gap: 10px;
         margin: 0;
 
         li {
@@ -24,7 +22,8 @@
           grid-template-columns: 10% 50% 20% 20%;
 
           &:not(:last-child) {
-            border-bottom: 1px solid;
+            border-bottom: 1px solid var(--ps-border-color);
+            padding-bottom: 10px;
           }
         }
       }

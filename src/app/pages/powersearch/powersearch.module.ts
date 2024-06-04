@@ -11,6 +11,7 @@ import { PowerSearchDocumentsComponent } from './documents/documents.component'
 import { PowerSearchPagesComponent } from './pages/pages.component'
 import { PowerSearchMyDealComponent } from './mydeal/mydeal.component'
 import { PowerSearchResearchComponent } from './research/research.component'
+import { PowerSearchMultimediaComponent } from './multimedia/multimedia.component'
 
 @NgModule({
   declarations: [ 
@@ -20,7 +21,8 @@ import { PowerSearchResearchComponent } from './research/research.component'
     PowerSearchDocumentsComponent,
     PowerSearchPagesComponent,
     PowerSearchMyDealComponent,
-    PowerSearchResearchComponent
+    PowerSearchResearchComponent,
+    PowerSearchMultimediaComponent
   ],
   imports: [ 
     LayoutModule,

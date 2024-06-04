@@ -1,5 +1,11 @@
 import { Component } from '@angular/core'
 
+export type MyDealValue = {
+  company?: string
+  amount?: string
+  date?: string
+}
+
 @Component({
   selector: 'ps-mydeal',
   template: `
@@ -53,6 +59,7 @@ import { Component } from '@angular/core'
           </ul>
         </section>
       </ma-content>
+      <ma-footer></ma-footer>
     </ma-card>    
   `,
   styleUrl: './mydeal.component.scss'

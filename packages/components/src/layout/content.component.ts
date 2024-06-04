@@ -35,7 +35,6 @@ import { Component, Input, booleanAttribute } from '@angular/core'
             display: var(--content-section-display);
             row-gap: var(--content-section-row-gap);
             padding: var(--content-section-padding);
-            //grid-template-columns: var(--content )
           }
 
           > footer {
